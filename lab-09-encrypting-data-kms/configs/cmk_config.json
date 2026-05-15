@@ -1,0 +1,7 @@
+{
+  "KeyId": "cmk-1234567890",
+  "KeyUsage": "ENCRYPT_DECRYPT",
+  "KeyState": "Disabled",
+  "Description": "Simulated CMK for data encryption",
+  "CreationDate": "2026-05-15T00:00:00Z"
+}
