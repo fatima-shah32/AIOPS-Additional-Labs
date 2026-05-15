@@ -1,0 +1,8 @@
+{
+  "resourceType": "AWS::EC2::Instance",
+  "resourceId": "i-1234567890abcdef0",
+  "resourceConfiguration": {
+    "instanceType": "t2.micro",
+    "availabilityZone": "us-east-1a"
+  }
+}
