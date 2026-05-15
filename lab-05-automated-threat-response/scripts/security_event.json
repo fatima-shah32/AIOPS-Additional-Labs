@@ -1,0 +1,9 @@
+{
+  "eventType": "UnauthorizedAccess",
+  "resource": "EC2 Instance i-1234567890abcdef0",
+  "details": {
+    "username": "unknown_user",
+    "ipAddress": "192.168.1.100",
+    "action": "failed_login_attempt"
+  }
+}
