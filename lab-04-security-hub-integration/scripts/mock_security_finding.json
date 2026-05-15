@@ -1,0 +1,7 @@
+{
+  "FindingType": "Compliance Issue",
+  "ResourceType": "AWS::EC2::Instance",
+  "ResourceId": "i-1234567890abcdef0",
+  "ComplianceStatus": "NON_COMPLIANT",
+  "Description": "EC2 instance does not meet compliance standards"
+}
