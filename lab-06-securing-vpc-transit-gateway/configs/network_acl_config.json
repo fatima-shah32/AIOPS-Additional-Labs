@@ -1,0 +1,29 @@
+{
+  "NetworkACL": {
+    "AclId": "acl-11111111",
+    "IngressRules": [
+      {
+        "RuleNumber": 100,
+        "Protocol": "TCP",
+        "PortRange": "80",
+        "Action": "ALLOW",
+        "Source": "0.0.0.0/0"
+      },
+      {
+        "RuleNumber": 110,
+        "Protocol": "TCP",
+        "PortRange": "443",
+        "Action": "ALLOW",
+        "Source": "0.0.0.0/0"
+      }
+    ],
+    "EgressRules": [
+      {
+        "RuleNumber": 100,
+        "Protocol": "ALL",
+        "Action": "ALLOW",
+        "Destination": "0.0.0.0/0"
+      }
+    ]
+  }
+}

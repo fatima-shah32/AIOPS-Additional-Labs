@@ -1,0 +1,18 @@
+{
+  "VPC": {
+    "VPCId": "vpc-11111111",
+    "CidrBlock": "10.0.0.0/16",
+    "Subnets": [
+      {
+        "SubnetId": "subnet-11111111",
+        "CidrBlock": "10.0.1.0/24",
+        "Type": "Private"
+      },
+      {
+        "SubnetId": "subnet-22222222",
+        "CidrBlock": "10.0.2.0/24",
+        "Type": "Public"
+      }
+    ]
+  }
+}
