@@ -1,0 +1,17 @@
+{
+  "BaselineName": "SecurityPatchesBaseline",
+  "ApprovedPatches": [
+    "ubuntu-20.04.5",
+    "ubuntu-20.04.6"
+  ],
+  "ApprovalRules": [
+    {
+      "Approve": "true",
+      "Criteria": "Severity: Critical"
+    },
+    {
+      "Approve": "false",
+      "Criteria": "Severity: Low"
+    }
+  ]
+}
