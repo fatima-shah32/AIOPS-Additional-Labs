@@ -1,0 +1,20 @@
+{
+  "LandingZone": {
+    "ManagementAccount": "Root_Account",
+    "OUs": [
+      {
+        "OUName": "Org_Unit_1",
+        "Accounts": ["Account_1", "Account_2"]
+      },
+      {
+        "OUName": "Org_Unit_2",
+        "Accounts": ["Account_3"]
+      }
+    ],
+    "Guardrails": ["Preventive", "Detective"],
+    "SecurityPolicies": {
+      "IAM_LeastPrivilege": "Enabled",
+      "RootAccountLock": "Enabled"
+    }
+  }
+}
