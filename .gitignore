@@ -1,0 +1,6 @@
+venv/
+__pycache__/
+*.pyc
+*.log
+minikube-linux-amd64
+*.ipynb_checkpoints
