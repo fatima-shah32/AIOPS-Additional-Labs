@@ -1,0 +1,7 @@
+log_message,date_time,incident_type,server,issue_description,incident_category
+2025-07-01 08:23:45 - ERROR - System crash on server 'web-server-01' due to memory overflow.,2025-07-01 08:23:45,ERROR,web-server-01,System crash on server 'web-server-01' due to memory overflow.,Performance
+2025-07-01 09:15:32 - WARNING - CPU usage exceeds 85% on server 'database-server-03'.,2025-07-01 09:15:32,WARNING,database-server-03.,CPU usage exceeds 85% on server 'database-server-03'.,Performance
+2025-07-01 10:03:11 - INFO - Successful login attempt by user 'admin' on server 'auth-server-01'.,2025-07-01 10:03:11,INFO,auth-server-01.,Successful login attempt by user 'admin' on server 'auth-server-01'.,General
+"2025-07-01 11:42:59 - ERROR - Security breach detected in 'api-server-04', unauthorized access attempt.",2025-07-01 11:42:59,ERROR,api-server-04,"Security breach detected in 'api-server-04', unauthorized access attempt.",Security
+2025-07-01 12:12:15 - INFO - Backup completed successfully on 'backup-server-01'.,2025-07-01 12:12:15,INFO,backup-server-01.,Backup completed successfully on 'backup-server-01'.,General
+2025-07-01 13:25:33 - ERROR - Database connection failure on 'db-server-02'.,2025-07-01 13:25:33,ERROR,db-server-02.,Database connection failure on 'db-server-02'.,System
