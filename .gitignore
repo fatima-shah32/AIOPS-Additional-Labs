@@ -4,3 +4,13 @@ __pycache__/
 *.log
 minikube-linux-amd64
 *.ipynb_checkpoints
+# Terraform files
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Python
+venv/
+
+# Cache
+__pycache__/
