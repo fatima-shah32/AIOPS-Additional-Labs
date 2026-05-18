@@ -1,1 +1,1 @@
-{"docker":{"/vagrant":{"disabled":false,"guestpath":"/vagrant","hostpath":"/home/ubuntu/AIOPS-Additional-Labs/section-02-vagrant-ii/lab-01-introduction-to-vagrant-and-shell-scripting","__vagrantfile":true}}}
+{"docker":{"/vagrant":{"disabled":false,"guestpath":"/vagrant","hostpath":"/home/ubuntu/AIOPS-Additional-Labs/section-01-vagrant-ii/lab-01-introduction-to-vagrant-and-shell-scripting","__vagrantfile":true}}}

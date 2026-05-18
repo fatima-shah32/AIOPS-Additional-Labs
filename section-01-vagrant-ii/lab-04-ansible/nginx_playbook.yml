@@ -1,0 +1,30 @@
+---
+- name: Install and configure Nginx
+  hosts: vagrant
+  become: yes
+
+  tasks:
+    - name: Update apt cache
+      apt:
+        update_cache: yes
+
+    - name: Install Nginx
+      apt:
+        name: nginx
+        state: present
+
+    - name: Start and enable Nginx
+      service:
+        name: nginx
+        state: started
+        enabled: yes
+
+    - name: Create custom index page
+      copy:
+        dest: /var/www/html/index.html
+        content: "Welcome to Nginx installed using Ansible on AWS!"
+
+    - name: Allow HTTP traffic (UFW)
+      ufw:
+        rule: allow
+        name: 'Nginx HTTP'
