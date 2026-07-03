@@ -1,0 +1,17 @@
+Lab 08: Image-Based Authentication using CNN
+
+Objective:
+Design and implement a CNN for image-based authentication.
+
+Dataset:
+Synthetic user image dataset with two users.
+
+Model Architecture:
+Conv2D -> MaxPooling -> Conv2D -> MaxPooling -> Flatten -> Dense -> Dropout -> Softmax
+
+Test Accuracy: 1.0000
+Sample Authentication User: user1
+Confidence: 1.0000
+
+Conclusion:
+The CNN learned to classify user-specific images and authenticate users based on image input.
