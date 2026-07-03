@@ -1,0 +1,18 @@
+Lab 06: Intrusion Detection with Snort and Machine Learning
+
+Objective:
+Use Snort IDS and machine learning to classify alerts as true positives or false positives.
+
+Model Used: RandomForestClassifier
+Feature Used: alert_type_encoded
+Model Accuracy: 1.00
+
+Sample Predictions:
+   Alert_Type Classification
+          DoS  True Positive
+    Port Scan False Positive
+SQL Injection False Positive
+      Malware  True Positive
+
+Conclusion:
+The ML model can classify Snort alert types and help reduce false positives.

@@ -1,0 +1,11 @@
+alert_type,alert_details,label
+DoS,SYN flood detected,1
+Port Scan,Multiple port scans,0
+DoS,ICMP flood,1
+SQL Injection,SQL injection attempt,1
+Port Scan,Scan from suspicious IP,0
+Malware,Malware signature detected,1
+Brute Force,Repeated failed login attempts,1
+Port Scan,Internal scan by admin tool,0
+DoS,Large packet burst,1
+SQL Injection,Test SQL pattern from scanner,0
