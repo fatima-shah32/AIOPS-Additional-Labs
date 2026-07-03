@@ -1,0 +1,11 @@
+Lab 02: Azure Kubernetes Service Deployment and Management
+
+This lab demonstrated Kubernetes deployment and management using Minikube.
+
+A local Kubernetes cluster was started using Minikube. A namespace named webapp-demo was created. Backend and frontend applications were deployed using YAML manifests. The frontend service was exposed using NodePort.
+
+Helm was configured by adding the Bitnami repository. Nginx was deployed using Helm, and a custom Helm chart was created for a sample web application.
+
+The lab also covered scaling deployments, checking pod logs, viewing events, describing pods, and using port forwarding for local access.
+
+Lab completed successfully.
