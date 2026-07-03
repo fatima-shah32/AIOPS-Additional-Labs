@@ -1,0 +1,6 @@
+Lab 09 - Automating Security Patch Testing with ML
+
+Dataset Size : 10
+Mean Squared Error : 28.943
+R2 Score : -6.236
+Predicted Impact : 3.70
