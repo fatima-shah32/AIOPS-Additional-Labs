@@ -1,0 +1,11 @@
+Lab 01: Azure Infrastructure as Code with ARM Templates and Terraform
+
+This lab demonstrated Infrastructure as Code concepts using ARM Templates and Terraform.
+
+ARM templates were used to define Azure resources in JSON format, including a storage account, app service plan, web app, and Application Insights.
+
+Terraform was used to build a modular multi-tier infrastructure structure with networking, compute, and database modules.
+
+The lab also compared ARM templates and Terraform, showing that ARM is Azure-native while Terraform is more reusable and multi-cloud friendly.
+
+Lab completed successfully.

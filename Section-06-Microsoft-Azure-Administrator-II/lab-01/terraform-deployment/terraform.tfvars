@@ -1,0 +1,6 @@
+resource_group_name = "rg-terraform-lab"
+location            = "East US"
+environment         = "development"
+app_name            = "myterraformapp"
+admin_username      = "azureuser"
+vm_size             = "Standard_B1s"
