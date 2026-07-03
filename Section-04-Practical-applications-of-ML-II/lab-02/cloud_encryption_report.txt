@@ -1,0 +1,23 @@
+Lab 02: Cloud Data Encryption with TensorFlow
+
+Objective:
+Design and implement a neural network model for simulating cloud data encryption.
+
+Plaintext:
+Hello TensorFlow
+
+Binary Plaintext:
+01001000011001010110110001101100011011110010000001010100011001010110111001110011011011110111001001000110011011000110111101110111
+
+Encrypted Binary Target:
+10110111100110101001001110010011100100001101111110101011100110101001000110001100100100001000110110111001100100111001000010001000
+
+Predicted Encrypted Binary:
+10110111100110101001001110010011100100001101111110101011100110101001000110001100100100001000110110111001100100111001000010001000
+
+Decrypted Text:
+Hello TensorFlow
+
+Conclusion:
+A TensorFlow neural network was trained to learn a simple binary encryption mapping.
+This is a learning simulation and not a replacement for real cryptographic encryption.
