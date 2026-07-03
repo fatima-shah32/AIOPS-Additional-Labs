@@ -1,0 +1,15 @@
+Lab 01: Anomaly Detection for Network Security
+
+Model Used: Isolation Forest
+Dataset: Simulated network traffic data
+Features: Packet_Size, Duration
+Contamination Rate: 0.05
+
+Detection Summary:
+Status
+Normal     997
+Anomaly     53
+Name: count, dtype: int64
+
+Conclusion:
+Isolation Forest successfully detected anomalous network traffic patterns.
