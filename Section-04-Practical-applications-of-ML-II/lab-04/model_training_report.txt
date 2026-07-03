@@ -1,0 +1,7 @@
+Lab 04: CI/CD Pipeline Enhancement with Jenkins and ML
+
+Model Used: RandomForestClassifier
+Features: Build_Time, Tests_Passed, Tests_Failed
+Target: Build_Outcome
+
+Model Accuracy: 1.00
