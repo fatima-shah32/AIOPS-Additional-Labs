@@ -1,0 +1,22 @@
+Lab 06 Part 1: Advanced Networking with Azure Virtual WAN and VPN Gateway
+
+Part 1 completed successfully.
+
+Tasks completed:
+1. Cloned AIOPS-Additional-Labs repository.
+2. Created Lab 06 folder under Section-06-Microsoft-Azure-Administrator-II.
+3. Created scripts, screenshots, reports, configs, and results folders.
+4. Installed Mininet, Open vSwitch, iperf3, tcpdump, mtr, and iftop.
+5. Verified Mininet installation.
+6. Verified Open vSwitch installation.
+7. Created Virtual WAN hub-and-spoke topology script.
+8. Started simulated Virtual WAN topology.
+9. Tested connectivity using Mininet ping commands.
+
+Topology:
+Hub Network: 10.0.1.0/24
+Branch 1 Network: 10.0.2.0/24
+Branch 2 Network: 10.0.3.0/24
+Branch 3 Network: 10.0.4.0/24
+
+Status: Successful
