@@ -1,0 +1,37 @@
+Azure Administrator II
+
+Lab 05
+
+Azure Cosmos DB Clustering and Replication
+
+Completed Successfully
+
+Summary
+
+1. Configured Azure CLI.
+
+2. Created Resource Group.
+
+3. Created Cosmos DB Account.
+
+4. Configured Global Replication.
+
+5. Enabled Automatic Failover.
+
+6. Enabled Multiple Write Regions.
+
+7. Created SQL Database.
+
+8. Created SQL Container.
+
+9. Performed Latency Testing.
+
+10. Performed Monitoring.
+
+11. Compared Performance.
+
+12. Generated Reports.
+
+Outcome
+
+The deployment was successful. Azure Cosmos DB demonstrated high availability through regional replication and automatic failover while maintaining efficient read and write latency.
