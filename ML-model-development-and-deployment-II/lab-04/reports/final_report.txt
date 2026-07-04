@@ -1,0 +1,25 @@
+Lab 04: SysOps System Health Prediction with Time Series Analysis
+
+Objective:
+Use time series forecasting to predict future system downtimes or disruptions.
+
+Dataset:
+Simulated hourly system logs with system status.
+
+Model Used:
+Facebook Prophet
+
+Results:
+Average Predicted Downtime: 0.0760
+Highest Predicted Downtime: 0.1030
+Risk Level: Medium
+
+Files Generated:
+- system_logs.csv
+- daily_downtime.csv
+- downtime_forecast.csv
+- system_downtime_forecast.png
+- forecast_components.png
+
+Conclusion:
+Prophet successfully forecasted future system downtime trends based on historical system logs.
