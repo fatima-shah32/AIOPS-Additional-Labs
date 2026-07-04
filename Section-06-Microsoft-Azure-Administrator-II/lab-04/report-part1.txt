@@ -1,0 +1,20 @@
+Lab 04 Part 1: Azure Traffic Manager and Application Gateway for High Availability
+
+Part 1 completed successfully.
+
+Tasks completed:
+1. Cloned AIOPS-Additional-Labs repository.
+2. Created Section-06-Microsoft-Azure-Administrator-II/lab-04 folder.
+3. Created regional web server folders.
+4. Created East, West, and Central region HTML pages.
+5. Created Docker Compose file for regional Nginx web servers.
+6. Started three regional web server containers.
+7. Verified all containers using docker ps.
+8. Tested all regional endpoints using curl.
+
+Regional endpoints:
+East Region: http://localhost:8081
+West Region: http://localhost:8082
+Central Region: http://localhost:8083
+
+Status: Successful
