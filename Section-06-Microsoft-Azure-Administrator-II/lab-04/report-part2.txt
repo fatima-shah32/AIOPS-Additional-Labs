@@ -1,0 +1,23 @@
+Lab 04 Part 2: HAProxy Traffic Manager Setup
+
+Part 2 completed successfully.
+
+Tasks completed:
+1. Created HAProxy configuration file.
+2. Configured HAProxy frontend on port 80.
+3. Configured backend pool with East, West, and Central web servers.
+4. Enabled round-robin load balancing.
+5. Enabled HAProxy statistics dashboard on port 8404.
+6. Created Docker Compose setup for HAProxy and regional web servers.
+7. Started Traffic Manager setup using Docker Compose.
+8. Verified containers using docker ps.
+9. Tested traffic distribution using curl.
+10. Tested backend failover by stopping one regional server.
+
+Traffic Manager URL:
+http://localhost
+
+HAProxy Stats URL:
+http://localhost:8404/stats
+
+Status: Successful
