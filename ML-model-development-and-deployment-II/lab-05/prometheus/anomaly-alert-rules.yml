@@ -1,0 +1,26 @@
+groups:
+- name: anomaly-alerts
+  rules:
+  - alert: HighCPUUsage
+    expr: cloud_cpu_usage > 90
+    for: 2m
+    labels:
+      severity: critical
+    annotations:
+      description: "CPU usage is above 90% for 2 minutes."
+
+  - alert: HighMemoryUsage
+    expr: cloud_memory_usage > 85
+    for: 2m
+    labels:
+      severity: warning
+    annotations:
+      description: "Memory usage is above 85% for 2 minutes."
+
+  - alert: MLAnomalyDetected
+    expr: cloud_anomaly_detected == 1
+    for: 1m
+    labels:
+      severity: critical
+    annotations:
+      description: "Machine learning model detected infrastructure anomaly."

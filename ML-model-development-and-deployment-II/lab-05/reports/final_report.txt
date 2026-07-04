@@ -1,0 +1,19 @@
+Lab 05: Real-time Anomaly Detection in Cloud Infrastructure
+
+Objective:
+Monitor cloud infrastructure and detect anomalies using machine learning.
+
+Model Used:
+Isolation Forest
+
+Total Logs: 1000
+Detected Anomalies: 100
+
+Generated Files:
+- cloud_infrastructure_logs.csv
+- anomaly_detection_results.csv
+- cpu_anomalies.png
+- memory_anomalies.png
+
+Conclusion:
+The ML model successfully detected abnormal infrastructure behavior.
