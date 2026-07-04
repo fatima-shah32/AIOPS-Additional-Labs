@@ -1,0 +1,25 @@
+Azure Cosmos DB Performance Comparison
+
+Regions Tested
+
+1. East US
+
+2. West Europe
+
+3. Southeast Asia
+
+Observations
+
+• Multiple write regions enabled successfully.
+
+• Automatic failover completed successfully.
+
+• Read operations completed successfully.
+
+• Write operations completed successfully.
+
+• Latency remained low after failover.
+
+Conclusion
+
+Azure Cosmos DB provides high availability and automatic regional failover with minimal service interruption.
