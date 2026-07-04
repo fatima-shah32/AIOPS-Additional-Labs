@@ -1,0 +1,2 @@
+object_name,storage_path,encryption_method,status
+encrypted_sample_1.txt,cloud_storage/secure-data-storage/encrypted_sample_1.txt,ML-assisted + Fernet encryption,Stored Successfully

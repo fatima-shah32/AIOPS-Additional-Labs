@@ -1,0 +1,6 @@
+venv/
+__pycache__/
+*.pyc
+*.keras
+results/encryption_key.txt
+cloud_storage/secure-data-storage/*.txt

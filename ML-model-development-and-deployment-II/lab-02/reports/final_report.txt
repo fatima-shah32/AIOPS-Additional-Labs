@@ -1,0 +1,22 @@
+Lab 02: Secure Cloud Data Storage with ML-enhanced Encryption
+
+Objective:
+Design and implement a cloud-based storage system with ML-enhanced encryption.
+
+Storage System:
+Local simulated OpenStack object storage.
+
+Encryption Method:
+TensorFlow autoencoder simulation with Fernet encryption.
+
+Files Generated:
+- sample_training_data.csv
+- ml_encryption_model.keras
+- encryption_key.txt
+- encrypted_sample_1.txt
+- training_history.csv
+- ml_encryption_loss.png
+- storage_log.csv
+
+Conclusion:
+The lab successfully simulated secure cloud storage with ML-enhanced encryption.
