@@ -1,0 +1,22 @@
+Lab 05 Part 2: Cosmos DB Database, Container, and Latency Testing
+
+Part 2 completed successfully.
+
+Tasks completed:
+1. Loaded lab variables.
+2. Created Cosmos DB SQL database.
+3. Created Cosmos DB SQL container.
+4. Configured partition key as /region.
+5. Retrieved Cosmos DB endpoint.
+6. Retrieved Cosmos DB primary key securely as environment variable.
+7. Created export_env.sh script.
+8. Created Python virtual environment.
+9. Installed Azure Cosmos Python SDK and supporting libraries.
+10. Created latency_test.py script.
+11. Tested write latency.
+12. Tested read latency.
+13. Saved latency results as CSV.
+14. Saved latency chart as PNG.
+15. Saved latency report.
+
+Status: Successful
