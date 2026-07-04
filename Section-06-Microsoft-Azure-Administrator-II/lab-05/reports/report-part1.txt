@@ -1,0 +1,22 @@
+Lab 05 Part 1: Azure Cosmos DB Clustering and Replication
+
+Part 1 completed successfully.
+
+Tasks completed:
+1. Cloned AIOPS-Additional-Labs repository.
+2. Created Azure Administrator II Lab 05 folder.
+3. Created scripts, screenshots, results, and reports folders.
+4. Installed and verified Azure CLI.
+5. Logged into Azure.
+6. Set Azure subscription.
+7. Created resource group.
+8. Created globally distributed Azure Cosmos DB account.
+9. Configured three regions:
+   - East US
+   - West Europe
+   - Southeast Asia
+10. Enabled multiple write locations.
+11. Enabled automatic failover.
+12. Saved Cosmos DB account information.
+
+Status: Successful

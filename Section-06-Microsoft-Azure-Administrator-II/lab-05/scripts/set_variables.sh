@@ -1,0 +1,18 @@
+#!/bin/bash
+
+export RESOURCE_GROUP="cosmosdb-lab-rg"
+export LOCATION_PRIMARY="East US"
+export LOCATION_SECONDARY="West Europe"
+export LOCATION_TERTIARY="Southeast Asia"
+export COSMOS_ACCOUNT="cosmosdb-global-$(date +%s)"
+export DATABASE_NAME="GlobalTestDB"
+export CONTAINER_NAME="TestContainer"
+
+echo "Variables configured:"
+echo "RESOURCE_GROUP=$RESOURCE_GROUP"
+echo "LOCATION_PRIMARY=$LOCATION_PRIMARY"
+echo "LOCATION_SECONDARY=$LOCATION_SECONDARY"
+echo "LOCATION_TERTIARY=$LOCATION_TERTIARY"
+echo "COSMOS_ACCOUNT=$COSMOS_ACCOUNT"
+echo "DATABASE_NAME=$DATABASE_NAME"
+echo "CONTAINER_NAME=$CONTAINER_NAME"
