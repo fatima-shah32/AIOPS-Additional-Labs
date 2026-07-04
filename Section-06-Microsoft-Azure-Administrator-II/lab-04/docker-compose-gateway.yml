@@ -1,0 +1,71 @@
+services:
+
+  application-gateway:
+
+    image: haproxy:2.4-alpine
+
+    container_name: application-gateway
+
+    ports:
+
+      - "80:80"
+
+      - "443:443"
+
+      - "8404:8404"
+
+    volumes:
+
+      - ./haproxy-waf.cfg:/usr/local/etc/haproxy/haproxy.cfg:ro
+
+      - ./ssl:/etc/ssl/certs:ro
+
+    depends_on:
+
+      - web-east
+
+      - web-west
+
+      - web-central
+
+  web-east:
+
+    image: nginx:alpine
+
+    container_name: web-east
+
+    ports:
+
+      - "8081:80"
+
+    volumes:
+
+      - ./web-servers/region-east:/usr/share/nginx/html
+
+  web-west:
+
+    image: nginx:alpine
+
+    container_name: web-west
+
+    ports:
+
+      - "8082:80"
+
+    volumes:
+
+      - ./web-servers/region-west:/usr/share/nginx/html
+
+  web-central:
+
+    image: nginx:alpine
+
+    container_name: web-central
+
+    ports:
+
+      - "8083:80"
+
+    volumes:
+
+      - ./web-servers/region-central:/usr/share/nginx/html

@@ -1,0 +1,23 @@
+Lab 04 Part 3 Completed Successfully
+
+Tasks Completed
+
+Generated SSL Certificate
+
+Configured HTTPS
+
+Created Application Gateway
+
+Configured WAF
+
+Enabled SQL Injection Protection
+
+Enabled XSS Protection
+
+Enabled Directory Traversal Protection
+
+Verified HTTPS
+
+Verified HTTP Redirect
+
+Verified WAF Rules
