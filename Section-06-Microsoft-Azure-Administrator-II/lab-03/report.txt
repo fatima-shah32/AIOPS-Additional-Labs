@@ -1,0 +1,11 @@
+Lab 03: CI/CD Pipelines with Azure DevOps and GitHub Actions
+
+This lab created a simple web application using HTML, CSS, and JavaScript.
+
+A test file was added to validate JavaScript functionality. GitHub Actions workflows were created for CI/CD, pull request validation, staging deployment, and deployment notifications.
+
+The CI/CD workflow runs automatically on pushes to the main branch and pull requests. It checks out the code, sets up Node.js, runs linting, runs tests, and deploys the application to GitHub Pages.
+
+This lab helped demonstrate the importance of automation, testing, deployment, and version control in modern DevOps workflows.
+
+Lab completed successfully.

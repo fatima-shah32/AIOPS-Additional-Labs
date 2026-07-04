@@ -1,0 +1,39 @@
+name: Pull Request Validation
+
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+
+    - name: Run tests
+      run: npm test
+
+    - name: Check code quality
+      run: |
+        echo "Checking code quality..."
+        if grep -r "TODO" src/; then
+          echo "Warning: TODO comments found"
+        fi
+        echo "Code quality check completed"
+
+    - name: Validate HTML
+      run: |
+        echo "Validating HTML..."
+        if grep -q "<!DOCTYPE html>" src/index.html; then
+          echo "Valid HTML DOCTYPE found"
+        else
+          echo "HTML DOCTYPE missing"
+          exit 1
+        fi

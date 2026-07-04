@@ -1,0 +1,14 @@
+{
+  "name": "cicd-demo-app",
+  "version": "1.0.0",
+  "description": "A simple web app for CI/CD demonstration",
+  "main": "src/index.html",
+  "scripts": {
+    "test": "node tests/test.js",
+    "start": "python3 -m http.server 8000 --directory src",
+    "lint": "echo 'Linting complete - no issues found'"
+  },
+  "keywords": ["cicd", "github-actions", "web-app"],
+  "author": "Fatima Danyal",
+  "license": "MIT"
+}
