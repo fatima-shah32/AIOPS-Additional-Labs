@@ -1,0 +1,57 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Setup Python Environment') {
+            steps {
+                sh '''
+                python3 -m venv venv
+                . venv/bin/activate
+                pip install pandas scikit-learn matplotlib tensorflow joblib requests
+                '''
+            }
+        }
+
+        stage('Train ML Model') {
+            steps {
+                sh '''
+                . venv/bin/activate
+                python ml_build_failure_prediction.py
+                '''
+            }
+        }
+
+        stage('Predict Build Result') {
+            steps {
+                sh '''
+                . venv/bin/activate
+                python predict_jenkins_build.py
+                '''
+            }
+        }
+
+        stage('Build') {
+            steps {
+                echo 'Running build stage...'
+            }
+        }
+
+        stage('Test') {
+            steps {
+                echo 'Running test stage...'
+            }
+        }
+
+        stage('Deploy') {
+            steps {
+                echo 'Running deployment stage...'
+            }
+        }
+    }
+
+    post {
+        always {
+            archiveArtifacts artifacts: 'results/*, reports/*', fingerprint: true
+        }
+    }
+}
