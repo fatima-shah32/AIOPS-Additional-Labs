@@ -1,0 +1,20 @@
+Lab 06 Part 2: Bandwidth Test Results
+
+Hub Host:
+h1 = 10.0.1.10
+
+Branch Tests:
+Branch 1 h3 to h1:
+Expected bandwidth approximately 100 Mbps
+
+Branch 2 h4 to h1:
+Expected bandwidth approximately 50 Mbps
+
+Branch 3 h5 to h1:
+Expected bandwidth approximately 75 Mbps
+
+Observation:
+Bandwidth results matched the simulated WAN link configuration created in the Mininet topology.
+
+Status:
+Successful

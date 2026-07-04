@@ -1,0 +1,26 @@
+Lab 06 Part 2: Latency Test Results
+
+The Virtual WAN topology includes simulated latency:
+
+Branch 1:
+Bandwidth: 100 Mbps
+Delay: 20ms
+
+Branch 2:
+Bandwidth: 50 Mbps
+Delay: 30ms
+
+Branch 3:
+Bandwidth: 75 Mbps
+Delay: 25ms
+
+Commands used:
+h1 ping -c 3 h3
+h1 ping -c 3 h4
+h1 ping -c 3 h5
+
+Expected outcome:
+All branches should respond with low latency and 0% packet loss.
+
+Conclusion:
+The Mininet Virtual WAN simulation successfully demonstrated network delay and bandwidth differences across multiple branch connections.

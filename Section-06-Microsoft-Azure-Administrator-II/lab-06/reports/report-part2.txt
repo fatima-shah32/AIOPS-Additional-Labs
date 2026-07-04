@@ -1,0 +1,29 @@
+Lab 06 Part 2: Virtual WAN Connectivity and Performance Testing
+
+Part 2 completed successfully.
+
+Tasks completed:
+1. Cleaned previous Mininet sessions.
+2. Started Virtual WAN topology.
+3. Verified Mininet nodes.
+4. Verified network topology using net command.
+5. Checked host IP addresses.
+6. Tested hub-to-branch connectivity.
+7. Tested branch-to-branch connectivity.
+8. Ran pingall full connectivity test.
+9. Started iperf3 server on hub host.
+10. Tested bandwidth from Branch 1 to hub.
+11. Tested bandwidth from Branch 2 to hub.
+12. Tested bandwidth from Branch 3 to hub.
+13. Created bandwidth results file.
+14. Created latency results file.
+15. Created test command helper script.
+16. Listed required screenshots.
+
+Test Results:
+Hub to branch connectivity: Successful
+Branch to branch connectivity: Successful
+Bandwidth testing: Successful
+Latency simulation: Successful
+
+Status: Successful
