@@ -1,0 +1,21 @@
+Lab 09
+
+Deploying Scalable ML Models in Kubernetes
+
+Completed Successfully
+
+Tasks Completed
+
+✔ Trained ML Model
+
+✔ Created Flask API
+
+✔ Dockerized Application
+
+✔ Created Kubernetes Deployment
+
+✔ Created Service
+
+✔ Configured Autoscaling
+
+✔ Tested API
