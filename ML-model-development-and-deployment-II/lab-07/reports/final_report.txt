@@ -1,0 +1,7 @@
+Lab 07
+Predictive Maintenance ML Model
+
+Accuracy : 0.785
+Failure Probability : 0.14790094218846636
+Dataset Generated Successfully
+Prediction Completed Successfully
