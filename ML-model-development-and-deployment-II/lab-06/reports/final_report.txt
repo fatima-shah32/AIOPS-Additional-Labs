@@ -1,0 +1,6 @@
+Lab 06
+ML Enhanced IDS using Snort
+
+Model : Random Forest
+Accuracy : 0.0
+Outputs generated successfully.
